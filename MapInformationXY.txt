@@ -1,0 +1,75 @@
+Project-04
+M. Stahr
+
+
+<Nodes>
+Symbol	Address	x	y
+A	1121 N Bend Rd.	263	147
+B	1521 Grassland Ave.	110	129
+C	22 Main St.	155	213
+D	44 W Lexington Ave.	244	273
+E	4423 Walnut St.	275	69
+F	1616 Levington Blvd.	165	291
+G	2402 N Bend Rd.	196	153
+H	33 Holden Ave.	27	80
+I	3411 Walnut St.	369	65
+J	44 Kirkland Dr.	81	308
+K	14 Pepper Ave.	110	32
+L	3311 N Bend Rd.	37	175
+M	15 Goodman Dr.	136	384
+N	510 Lake St.	229	366
+O	1600 N Bend Rd.	341	151
+P	55 Main St.	247	213
+Q	5500 Walnut St.	188	70
+R	11 Savannah Dr.	82	231
+S	20  Hopper Blvd.	320	329
+T	9810 Miami Blvd.	335	235
+</Nodes>
+
+/*********************************************************
+	These are comments...
+/*********************************************************
+<Edges>
+Source	Destination	TimeCost	DistanceCost
+A	C	4	8
+A	Q	3	6
+A	T	5	10
+B	G	6	12
+B	H	8	16
+B	Q	2	16
+B	R	5	10
+C	D	2	4
+C	J	8	16
+C	L	8	16
+D	F	4	8
+D	N	7	14
+D	T	1	4
+E	G	8	5
+E	I	7	14
+E	O	4	8
+E	Q	3	6
+F	M	10	20
+F	R	6	16
+G	D	1	60
+H	K	6	12
+H	L	2	5
+I	E	5	14
+J	C	7	16
+K	H	4	12
+L	C	2	16
+L	H	1	5
+M	F	6	20
+N	S	4	8
+O	E	7	8
+O	P	4	8
+P	C	4	8
+P	F	8	4
+P	O	3	8
+P	T	7	14
+Q	B	8	16
+R	F	8	16
+S	D	3	6
+S	T	6	9
+T	D	2	4
+T	S	4	9
+</Edges>
